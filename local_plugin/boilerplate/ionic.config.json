@@ -1,0 +1,7 @@
+{
+  "name": "statusbar_height_sample",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

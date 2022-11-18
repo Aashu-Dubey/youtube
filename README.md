@@ -43,9 +43,9 @@ cd path/to/cloned/folder
 
 ## Videos
 
-| No. | 📹 Video                                         | 🔧 Tech      | 🔗 Links                                                                                                                                                                |
-| --- | ------------------------------------------------ | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4) | react-native | Source: [Video version](./src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
+| No. | 📹 Video                                         | 🔧 Tech      | 🔗 Links                                                                                                                                                                           |
+| --- | ------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4) | react-native | Source: [Video version](./rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
 
 ## Playlists
 

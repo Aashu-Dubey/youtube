@@ -35,4 +35,4 @@ Inspired by [this original iOS implementation](https://twitter.com/jmtrivedi/sta
 
 ---
 
-See the instructions [here](../#readme) to run the project on your local machine for a particular platform.
+See the instructions [here](../../#readme) to run the project on your local machine for a particular platform.

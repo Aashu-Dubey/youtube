@@ -13,25 +13,29 @@ This repo contains all the (link to) source code or files used in the videos for
 
 Projects are divided into their tech specific branch:
 
-1. [Ionic](https://github.com/Aashu-Dubey/youtube/tree/ionic)
-2. [Blender](https://github.com/Aashu-Dubey/youtube/tree/blender)
-3. ...
+1. [react-native](https://github.com/Aashu-Dubey/youtube/tree/react-native)
+2. [ionic](https://github.com/Aashu-Dubey/youtube/tree/ionic)
+3. [blender](https://github.com/Aashu-Dubey/youtube/tree/blender)
+4. ...
 
 ## Videos
 
-| No. | 📹 Video                                                             | 🔧 Tech                     | 🔗 Links                                                                                                                                                  |
-| --- | -------------------------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0   | [Implement List Animation](https://youtu.be/9ssPXzVecas)             | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)<br/>[Article](https://medium.com/@aashu_dubey/list-animation-in-ionic-6-angular-c01930fbf527) |
-| 1   | [Sidebar/Drawer animation](https://youtu.be/TH75SYPs5Lo)             | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)                                                                                               |
-| 2   | [Menu icon transition animation](https://youtu.be/gsuDITVELB4)       | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)                                                                                               |
-| 3   | [Create project specific local plugin](https://youtu.be/q5kQcTqPtGY) | Ionic 6, Angular, Capacitor | [Source](https://github.com/Aashu-Dubey/youtube/tree/ionic/local_plugin)                                                                                  |
-| 4   | [Highlight objects in your video](https://youtu.be/RfW-6KKXOTY)      | Blender Video Editing       | [Source](https://github.com/Aashu-Dubey/youtube/tree/blender/highlight_objects)                                                                           |
+| No. | 📹 Video                                                             | 🔧 Tech                     | 🔗 Links                                                                                                                                                                                                                                  |
+| --- | -------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0   | [Implement List Animation](https://youtu.be/9ssPXzVecas)             | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)<br/>[Article](https://medium.com/@aashu_dubey/list-animation-in-ionic-6-angular-c01930fbf527)                                                                                 |
+| 1   | [Sidebar/Drawer animation](https://youtu.be/TH75SYPs5Lo)             | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)                                                                                                                                                                               |
+| 2   | [Menu icon transition animation](https://youtu.be/gsuDITVELB4)       | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)                                                                                                                                                                               |
+| 3   | [Create project specific local plugin](https://youtu.be/q5kQcTqPtGY) | Ionic 6, Angular, Capacitor | [Source](https://github.com/Aashu-Dubey/youtube/tree/ionic/local_plugin)                                                                                                                                                                  |
+| 4   | [Highlight objects in your video](https://youtu.be/RfW-6KKXOTY)      | Blender Video Editing       | [Source](https://github.com/Aashu-Dubey/youtube/tree/blender/highlight_objects)                                                                                                                                                           |
+| 5   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4)                     | react-native                | Source: [Video version](https://github.com/Aashu-Dubey/youtube/tree/react-native/rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
 
 ## Playlists
 
-1. Ionic
+1. [React Native Animations](https://www.youtube.com/playlist?list=PLpnMM6hhRcchaS1uSpMZfAKYTxZWIlzzN)
+
+2. Ionic
 
    - [Ionic Tutorials](https://www.youtube.com/playlist?list=PLpnMM6hhRccgJyULbdCPo9n0ufqF4gNQX)
    - [Ionic UI Templates](https://www.youtube.com/playlist?list=PLpnMM6hhRcchVmD6K1xJicQ7dJTa9uUrg)
 
-2. [Blender](https://www.youtube.com/playlist?list=PLpnMM6hhRccjGelfoMvunMpY4L8pIcn1a)
+3. [Blender](https://www.youtube.com/playlist?list=PLpnMM6hhRccjGelfoMvunMpY4L8pIcn1a)

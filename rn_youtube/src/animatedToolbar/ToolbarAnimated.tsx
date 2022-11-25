@@ -76,9 +76,7 @@ const Button: React.FC<ButtonType> = ({ item, index, offset, activeY }) => {
   const translateX = useRef(new Animated.Value(0));
   const btnScale = useRef(new Animated.Value(1));
   const iconScale = useRef(new Animated.Value(1));
-  const reverseIconTranslateX = useRef(new Animated.Value(0)); // Windows only
   const titleOpacity = useRef(new Animated.Value(0));
-  const reverseTitleTranslateX = useRef(new Animated.Value(0)); // Windows only
   const topForRb = useRef(new Animated.Value(0)); // rb == RubberBanding
 
   const isItemOutOfView = useRef(false);
@@ -162,66 +160,42 @@ const Button: React.FC<ButtonType> = ({ item, index, offset, activeY }) => {
         useNativeDriver: false,
       }),
     ]).start();
-
-    // On Windows the translateX on container was also applying on inner items,
-    // resulting in icon, text shifted to the right, so this is just a workaround to fix that.
-    // the translate value here are not based on some calculations, but hard-coded just to make it work correctly
-    Config.isWindows &&
-      Animated.parallel([
-        Animated.timing(reverseIconTranslateX.current, {
-          toValue: isItemActive.current ? -48 : 0,
-          duration: 250,
-          useNativeDriver: false,
-        }),
-        Animated.timing(reverseTitleTranslateX.current, {
-          toValue: isItemActive.current ? -60 : 0,
-          duration: 250,
-          useNativeDriver: false,
-        }),
-      ]).start();
   };
 
   return (
-    <Animated.View
-      style={[
-        styles.buttonContainer,
-        {
-          width: btnWidth.current,
-          transform: [
-            { translateX: translateX.current },
-            { scale: btnScale.current },
-          ],
-          top: topForRb.current,
-          backgroundColor: item.color,
-        },
-      ]}
-    >
+    // Here the transform is applied to a separate view container, cause of an issue with rn-windows, so this is a workaround
+    // details for the issue:- https://github.com/microsoft/react-native-windows/issues/8420
+    // even though it still has some weird shifts to the nested views after transform, but it works.
+    <Animated.View style={{ transform: [{ translateX: translateX.current }] }}>
       <Animated.View
-        style={{
-          transform: [
-            { scale: iconScale.current },
-            { translateX: reverseIconTranslateX.current },
-          ],
-        }}
-      >
-        <Icon name={item.icon} color="white" size={24} />
-      </Animated.View>
-      <Animated.Text
         style={[
-          styles.buttonTitle,
-          { opacity: titleOpacity.current },
-          // Applying transform for Text on rn-macos throws error
-          Config.isWindows && {
-            transform: [
-              { scale: iconScale.current },
-              { translateX: reverseTitleTranslateX.current },
-            ],
+          styles.buttonContainer,
+          {
+            width: btnWidth.current,
+            transform: [{ scale: btnScale.current }],
+            top: topForRb.current,
+            backgroundColor: item.color,
           },
         ]}
-        selectable={false} // To avoid drag conflict on web
       >
-        {item.title}
-      </Animated.Text>
+        <Animated.View style={{ transform: [{ scale: iconScale.current }] }}>
+          <Icon name={item.icon} color="white" size={24} />
+        </Animated.View>
+        <Animated.Text
+          style={[
+            styles.buttonTitle,
+            { opacity: titleOpacity.current },
+            // Applying transform for Text on rn-macos throws error
+            Config.isWindows && {
+              // On Windows, the text after container scaling look too blurry & big, so just scaling it down
+              transform: [{ scale: iconScale.current }],
+            },
+          ]}
+          selectable={false} // To avoid drag conflict on web
+        >
+          {item.title}
+        </Animated.Text>
+      </Animated.View>
     </Animated.View>
   );
 };

@@ -43,9 +43,10 @@ cd path/to/cloned/folder
 
 ## Videos
 
-| No. | 📹 Video                                         | 🔧 Tech      | 🔗 Links                                                                                                                                                                           |
-| --- | ------------------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4) | react-native | Source: [Video version](./rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
+| No. | 📹 Video                                                          | 🔧 Tech      | 🔗 Links                                                                                                                                                                           |
+| --- | ----------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4)                  | react-native | Source: [Video version](./rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
+| 1   | [Spread Card effect (Color Swatch)](https://youtu.be/lK6rAktDQJQ) | react-native | Source: [Video version](./rn_youtube/src/colorSwatch#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/color_swatch)       |
 
 ## Playlists
 

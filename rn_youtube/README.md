@@ -6,6 +6,8 @@ This project contains the code samples used for the video tutorials on my [Youtu
 
 1. Animated Toolbar:- [Video](https://youtu.be/27pTWrcEDC4) | [Source](./src/animatedToolbar#readme)
 
+2. Spread Card effect (Color Swatch):- [Video](https://youtu.be/lK6rAktDQJQ) | [Source](./src/colorSwatch#readme)
+
 ## 💪🏼 Get Started
 
 Cloning the repo:
@@ -97,6 +99,12 @@ See more at react-native-macos [guide](https://microsoft.github.io/react-native-
 ```sh
 // install the rn-macos package
 yarn add react-native-macos
+
+// At project root
+bundle install
+
+// Install pods
+cd macos && pod install && cd ..
 
 // run the project as macos application
 npx react-native run-macos

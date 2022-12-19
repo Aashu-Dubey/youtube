@@ -28,6 +28,7 @@ Projects are divided into their tech specific branch:
 | 3   | [Create project specific local plugin](https://youtu.be/q5kQcTqPtGY) | Ionic 6, Angular, Capacitor | [Source](https://github.com/Aashu-Dubey/youtube/tree/ionic/local_plugin)                                                                                                                                                                  |
 | 4   | [Highlight objects in your video](https://youtu.be/RfW-6KKXOTY)      | Blender Video Editing       | [Source](https://github.com/Aashu-Dubey/youtube/tree/blender/highlight_objects)                                                                                                                                                           |
 | 5   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4)                     | react-native                | Source: [Video version](https://github.com/Aashu-Dubey/youtube/tree/react-native/rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
+| 6   | [Spread Card effect (Color Swatch)](https://youtu.be/lK6rAktDQJQ)    | react-native                | Source: [Video version](https://github.com/Aashu-Dubey/youtube/tree/react-native/rn_youtube/src/colorSwatch#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/color_swatch)       |
 
 ## Playlists
 

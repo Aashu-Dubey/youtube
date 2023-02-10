@@ -11,7 +11,8 @@ This branch contains all (link to) source code or files used in the videos for m
 
 ## Get Started
 
-Cloning the repo:
+<details>
+<summary>Cloning the repo:</summary>
 
 ```sh
 git clone
@@ -40,6 +41,8 @@ git sparse-checkout set path/to/file/or/folder/to/clone
 // Navigate to project folder
 cd path/to/cloned/folder
 ```
+
+</details>
 
 ## Videos
 

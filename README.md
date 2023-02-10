@@ -7,36 +7,48 @@
   </a>
 </p>
 
-This repo contains all the (link to) source code or files used in the videos for my [YouTube Channel](https://www.youtube.com/channel/UCAGVoY1fr4ki91Y8ufH1pQQ?sub_confirmation=1).
+This branch contains all (link to) source code or files used in the videos for my [YouTube Channel](https://youtube.com/channel/UCAGVoY1fr4ki91Y8ufH1pQQ?sub_confirmation=1) specific to [Flutter](https://flutter.dev).
 
-## Branches
+## Get Started
 
-Projects are divided into their tech specific branch:
+Cloning the repo:
 
-1. [react-native](https://github.com/Aashu-Dubey/youtube/tree/react-native)
-2. [ionic](https://github.com/Aashu-Dubey/youtube/tree/ionic)
-3. [blender](https://github.com/Aashu-Dubey/youtube/tree/blender)
-4. ...
+```sh
+git clone
+
+// navigate to project
+cd youtube
+
+// Switch to a flutter branch
+git checkout flutter
+
+// Navigate to particular project's source code
+cd path/to/folder
+```
+
+If you want to clone a specific source folder from a particular video, you can do so, using following git commands (more details [here](https://stackoverflow.com/a/52269934)):
+
+```sh
+git clone --depth 1 --filter=blob:none --sparse --single-branch --branch flutter https://github.com/Aashu-Dubey/youtube.git
+
+// navigate to project
+cd youtube
+
+// Here we'll clone only specific folder
+git sparse-checkout set path/to/file/or/folder/to/clone
+
+// Navigate to project folder
+cd path/to/cloned/folder
+```
 
 ## Videos
 
-| No. | 📹 Video                                                             | 🔧 Tech                     | 🔗 Links                                                                                                                                                                                                                                  |
-| --- | -------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0   | [Implement List Animation](https://youtu.be/9ssPXzVecas)             | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)<br/>[Article](https://medium.com/@aashu_dubey/list-animation-in-ionic-6-angular-c01930fbf527)                                                                                 |
-| 1   | [Sidebar/Drawer animation](https://youtu.be/TH75SYPs5Lo)             | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)                                                                                                                                                                               |
-| 2   | [Menu icon transition animation](https://youtu.be/gsuDITVELB4)       | Ionic 6, Angular            | [Source](https://github.com/Aashu-Dubey/Ionic-UI-Templates)                                                                                                                                                                               |
-| 3   | [Create project specific local plugin](https://youtu.be/q5kQcTqPtGY) | Ionic 6, Angular, Capacitor | [Source](https://github.com/Aashu-Dubey/youtube/tree/ionic/local_plugin)                                                                                                                                                                  |
-| 4   | [Highlight objects in your video](https://youtu.be/RfW-6KKXOTY)      | Blender Video Editing       | [Source](https://github.com/Aashu-Dubey/youtube/tree/blender/highlight_objects)                                                                                                                                                           |
-| 5   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4)                     | react-native                | Source: [Video version](https://github.com/Aashu-Dubey/youtube/tree/react-native/rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
-| 6   | [Spread Card effect (Color Swatch)](https://youtu.be/lK6rAktDQJQ)    | react-native                | Source: [Video version](https://github.com/Aashu-Dubey/youtube/tree/react-native/rn_youtube/src/colorSwatch#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/color_swatch)       |
+| No. | 🎥 Video                                                                                                                                                                                                                                                                                                                                | 🔧 Tech       | 🔗 Links                                                                             |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------ |
+| 0   | OnBoarding and SignIn UI - Flutter & Rive Tutorial<br /><p align="center"><a href="https://youtu.be/vmdafWtYzBg" title="OnBoarding and SignIn UI - Flutter & Rive Tutorial"><img src="https://i.ytimg.com/vi/vmdafWtYzBg/maxresdefault.jpg" height="80px" alt="OnBoarding and SignIn UI - Flutter & Rive Tutorial Thumbnail" /></a></p> | Flutter, Rive | [Source Code](https://github.com/Aashu-Dubey/flutter-samples/tree/main/lib/rive_app) |
 
 ## Playlists
 
-1. [React Native Animations](https://www.youtube.com/playlist?list=PLpnMM6hhRcchaS1uSpMZfAKYTxZWIlzzN)
-
-2. Ionic
-
-   - [Ionic Tutorials](https://www.youtube.com/playlist?list=PLpnMM6hhRccgJyULbdCPo9n0ufqF4gNQX)
-   - [Ionic UI Templates](https://www.youtube.com/playlist?list=PLpnMM6hhRcchVmD6K1xJicQ7dJTa9uUrg)
-
-3. [Blender](https://www.youtube.com/playlist?list=PLpnMM6hhRccjGelfoMvunMpY4L8pIcn1a)
+| :tv: Playlist                                                                      |                                                                                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Flutter UI](https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF) | <a href="https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF" title="Flutter UI Playlist"><img src="https://i.ytimg.com/vi/vmdafWtYzBg/maxresdefault.jpg" height="120px" alt="Playlist video thumbnail Thumbnail" /></a> |

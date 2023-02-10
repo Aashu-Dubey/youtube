@@ -52,6 +52,6 @@ cd path/to/cloned/folder
 
 ## Playlists
 
-| :tv: Playlist                                                                      |                                                                                                                                                                                                                                           |
-| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Flutter UI](https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF) | <a href="https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF" title="Flutter UI Playlist"><img src="https://i.ytimg.com/vi/vmdafWtYzBg/maxresdefault.jpg" height="120px" alt="Playlist video thumbnail Thumbnail" /></a> |
+| :tv: Playlist                                                                      |                                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Flutter UI](https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF) | <a href="https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF" title="Flutter UI Playlist"><img src="https://i.ytimg.com/vi/vmdafWtYzBg/maxresdefault.jpg" height="120px" alt="Playlist video thumbnail" /></a> |

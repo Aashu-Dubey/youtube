@@ -11,7 +11,8 @@ This branch contains all (link to) source code or files used in the videos for m
 
 ## Get Started
 
-Cloning the repo:
+<details>
+<summary>Cloning the repo:</summary>
 
 ```sh
 git clone
@@ -41,13 +42,17 @@ git sparse-checkout set path/to/file/or/folder/to/clone
 cd path/to/cloned/folder
 ```
 
+</details>
+
 ## Videos
 
-| No. | 📹 Video                                                          | 🔧 Tech      | 🔗 Links                                                                                                                                                                           |
-| --- | ----------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0   | [Animated Toolbar](https://youtu.be/27pTWrcEDC4)                  | react-native | Source: [Video version](./rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
-| 1   | [Spread Card effect (Color Swatch)](https://youtu.be/lK6rAktDQJQ) | react-native | Source: [Video version](./rn_youtube/src/colorSwatch#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/color_swatch)       |
+| No. | 📹 Video                                                                                                                                                                                                                                                                    | 🔧 Tech      | 🔗 Links                                                                                                                                                                           |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0   | Animated Toolbar<br /><p align="center"><a href="https://youtu.be/27pTWrcEDC4" title="Animated Toolbar"><img src="https://i.ytimg.com/vi/27pTWrcEDC4/maxresdefault.jpg" height="80px" alt="Animated Toolbar Thumbnail" /></a></p>                                           | react-native | Source: [Video version](./rn_youtube/src/animatedToolbar#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/custom_toolbar) |
+| 1   | Spread Card effect (Color Swatch)<br /><p align="center"><a href="https://youtu.be/lK6rAktDQJQ" title="Spread Card effect (Color Swatch)"><img src="https://i.ytimg.com/vi/lK6rAktDQJQ/maxresdefault.jpg" height="80px" alt="Spread Card effect video Thumbnail" /></a></p> | react-native | Source: [Video version](./rn_youtube/src/colorSwatch#readme) \| [Original](https://github.com/Aashu-Dubey/react-native-animation-samples/tree/main/src/samples/color_swatch)       |
 
 ## Playlists
 
-1. [React Native Animations](https://www.youtube.com/playlist?list=PLpnMM6hhRcchaS1uSpMZfAKYTxZWIlzzN)
+| :tv: Playlist                                                                                   |                                                                                                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [React Native Animations](https://youtube.com/playlist?list=PLpnMM6hhRcchaS1uSpMZfAKYTxZWIlzzN) | <a href="https://youtube.com/playlist?list=PLpnMM6hhRcchaS1uSpMZfAKYTxZWIlzzN" title="React Native Animations Playlist"><img src="https://i.ytimg.com/vi/27pTWrcEDC4/maxresdefault.jpg" height="120px" alt="React Native Animations Thumbnail" /></a> |

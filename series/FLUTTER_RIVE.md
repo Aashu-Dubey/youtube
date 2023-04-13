@@ -1,6 +1,10 @@
 ## Flutter and Rive
 
-Tutorial Series for creating UI in Flutter with Rive animated assets, inspired from this original [SwiftUI course](https://designcode.io/swiftui-rive-animated-app)
+Tutorial Series where we will create an application from scratch in Flutter with interactive UI and animations, with custom UI components like Bottom TabBar and SideMenu, and using animated assets from Rive.
+
+Inspired from this original [SwiftUI course](https://designcode.io/swiftui-rive-animated-app)
+
+## [:tv: Playlist](https://youtube.com/playlist?list=PLpnMM6hhRccigVfEO2Ynj6DQB9MbW5CaF)
 
 ## Videos
 

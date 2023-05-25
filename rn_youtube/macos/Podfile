@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 target 'rn_youtube-macOS' do
   platform :macos, '10.15'
-  # use_native_modules!
+  use_native_modules!
   use_react_native!(
     :path => '../node_modules/react-native-macos',
     # to enable hermes on macOS, change `false` to `true` and then install pods
@@ -14,8 +14,8 @@ target 'rn_youtube-macOS' do
 end
 
 target 'rn_youtube-iOS' do
-  platform :ios, '11'
-  # use_native_modules!
+  platform :ios, '12.4'
+  use_native_modules!
   use_react_native!(:path => '../node_modules/react-native-macos')
 
   # Enables Flipper.

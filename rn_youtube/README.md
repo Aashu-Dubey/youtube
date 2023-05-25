@@ -84,7 +84,7 @@ yarn run web
 
 ### 🪟🖥 Running on Windows
 
-See the react-native-windows [guide](https://microsoft.github.io/react-native-windows/docs/getting-started) for details about required development setup
+See the react-native-windows [guide](https://microsoft.github.io/react-native-windows/docs/getting-started) for details about required development setup.
 
 ```sh
 npx react-native run-windows
@@ -92,14 +92,9 @@ npx react-native run-windows
 
 ### 🍎🖥 Running on macOS
 
-Because of some conflict with [ios module](./ios) folder, the project contains [macos module](./macos), but not the package, so first you need to install that.
-
-See more at react-native-macos [guide](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started).
+See the react-native-macos [guide](https://microsoft.github.io/react-native-windows/docs/rnm-getting-started) for details about required development setup.
 
 ```sh
-// install the rn-macos package
-yarn add react-native-macos
-
 // At project root
 bundle install
 
